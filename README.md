@@ -457,9 +457,9 @@ Download and drop `/Source` folder in your project.
 * Swift 4
 * iOS 11 or higher
 
-## Authors
+## Edit By
 
-* **Roman Volodko** -  [dillidon](https://github.com/dillidon)
+* **Raksha Saini** -  [Raksha](https://github.com/rakshasaini20)
 
 ## Communication
 
