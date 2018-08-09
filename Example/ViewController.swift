@@ -203,7 +203,7 @@ class ViewController: UIViewController {
             alert.show()
             
         case .oneTextField:
-            let alert = UIAlertController(style: self.alertStyle, title: "Promo Doe", message: "Discount Coupon Code")
+            let alert = UIAlertController(style: self.alertStyle, title: "Promo Code", message: "Discount Coupon Code")
             
             let textField: TextField.Config = { textField in
                 textField.left(image: #imageLiteral(resourceName: "pen"), color: .black)
@@ -214,7 +214,7 @@ class ViewController: UIViewController {
                 textField.borderColor = UIColor.lightGray.withAlphaComponent(0.5)
                 textField.backgroundColor = nil
                 textField.textColor = .black
-                textField.placeholder = "Enter Your Coupon Code"
+                textField.placeholder = " Please Enter Your Coupon Code"
                 textField.keyboardAppearance = .default
                 textField.keyboardType = .decimalPad
                 //textField.isSecureTextEntry = true
@@ -282,7 +282,7 @@ class ViewController: UIViewController {
             alert.show()
             
         case .dataPicker:
-            let alert = UIAlertController(style: self.alertStyle, title: "Date Picker", message: "Select Date")
+            let alert = UIAlertController(style: self.alertStyle, title: "Date Picker", message: "Select Date and Time")
             alert.addDatePicker(mode: .dateAndTime, date: Date(), minimumDate: nil, maximumDate: nil) { date in
                 Log(date)
             }
@@ -358,7 +358,7 @@ class ViewController: UIViewController {
             
             let text: [AttributedTextBlock] = [
                 .normal(""),
-                .header1("U.S. Returns & Refunds Policy."),
+                .header1("India Returns & Refunds Policy."),
                 .header2("Standard Return Policy."),
                 .normal("There are a few important things to keep in mind when returning a product you purchased online from Apple:"),
                 .list("You have 14 calendar days to return an item from the date you received it."),
