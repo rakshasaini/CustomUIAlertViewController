@@ -187,7 +187,7 @@ class ViewController: UIViewController {
         switch type {
             
         case .simple:
-            let alert = UIAlertController(style: self.alertStyle, title: "Simple Alert", message: "3 kinds of actions")
+            let alert = UIAlertController(style: self.alertStyle, title: "Simple Alert", message: "Three kinds of actions")
             alert.addAction(title: "Default", style: .default)
             alert.addAction(title: "Cancel", style: .cancel)
             alert.addAction(title: "Destructive", style: .destructive)
